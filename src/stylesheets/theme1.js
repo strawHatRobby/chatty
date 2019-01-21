@@ -14,5 +14,4 @@
     height: '40px',
     width: '40px',
     borderRadius: '40',
-
    }

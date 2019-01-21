@@ -30,7 +30,7 @@ class Gif extends Component {
         <source src="https://s3.ap-south-1.amazonaws.com/robsacloudbucket/chatty/crowdCheer.mp3" type="audio/mpeg" >
 			</source>
         </audio>
-          <img width="80%" src={this.props.url}/>
+          <img width="90%" src={this.props.url}/>
       </div>
     )
   }

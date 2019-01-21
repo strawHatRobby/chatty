@@ -1,5 +1,7 @@
 import Gif from '../components/gif';
 import React from 'react';
+import Lottie from 'lottie-react-web';
+import animation from '../components/the_victory.json'
 
 export const coachSteps = [{
     id: 'first',
@@ -31,7 +33,7 @@ export const coachSteps = [{
 {
     id: 'gotIt?',
     headerTitle: 'Yes or No?',
-    placeholder: 'Answer',
+    placeholder: 'Choose your Answer',
     delay: 1000,
     options: [
         { value: 1, label: 'Yes', trigger: 'question1'},
@@ -57,6 +59,7 @@ export const coachSteps = [{
 },
 {
     id:'abscondingOptions',
+    placeholder: 'Choose your Answer',
     options: [
         { value: '0', label: 'doing ab crunches', trigger: 'hint1.1'},
         { value: '1', label: 'to secretly evade', trigger: 'questionexplainAbash'},
@@ -86,6 +89,7 @@ export const coachSteps = [{
 },
 {
     id: 'evadeTraining',
+    placeholder: 'Choose your Answer',
     options: [
         { value: '1', label: 'Yes', trigger: 'abash'},
         { value: '0', label: 'No', trigger: 'explainAbash'},       
@@ -98,8 +102,9 @@ export const coachSteps = [{
 },
 {
     id:'abashYes',
+    placeholder: 'Choose your Answer',
     options: [
-        { value: '1', label: 'Yes', trigger: 'abash'},
+        { value: '1', label: 'Yes', trigger: 'end'},
         { value: '0', label: 'No', trigger: 'explainAbash'},       
     ]
 },
@@ -118,6 +123,15 @@ export const coachSteps = [{
 {
     id: 'end',
     message: "That'll be all maggot!",
+    trigger: 'lottie'
+},
+{
+    id: 'lottie',
+    component: (
+        <Lottie
+            options={{animationData: animation}}
+            />
+    ),
     end: true
 }
 
