@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/chatty/static/js/runtime~main.c3496d67.js"
   },
   {
-    "revision": "3b65a8517e6be55eff9d",
-    "url": "/chatty/static/js/main.3b65a851.chunk.js"
+    "revision": "ecfb4f03802f4a625a8f",
+    "url": "/chatty/static/js/main.ecfb4f03.chunk.js"
   },
   {
-    "revision": "e1a3f7b30016f99c809e",
-    "url": "/chatty/static/js/1.e1a3f7b3.chunk.js"
+    "revision": "eb47c36bba6484af4803",
+    "url": "/chatty/static/js/1.eb47c36b.chunk.js"
   },
   {
-    "revision": "3b65a8517e6be55eff9d",
-    "url": "/chatty/static/css/main.c056419a.chunk.css"
+    "revision": "ecfb4f03802f4a625a8f",
+    "url": "/chatty/static/css/main.d3134350.chunk.css"
   },
   {
-    "revision": "e8a06590a5754bc82537adb9d079a719",
+    "revision": "651fd3894a55aec6fc42e398307cbc9c",
     "url": "/chatty/index.html"
   }
 ];
