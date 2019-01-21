@@ -3,20 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-rallycoding": "^3.2.0",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-sound": "^1.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
     "lottie-web": "^5.3.3",
+    "react-bootstrap": "^0.32.4",
+    "react-lottie": "^1.2.3",
     "react-scripts": "2.0.4",
-    "react-simple-chatbot": "https://github.com/LucasBassetti/react-simple-chatbot",
+    "react-simple-chatbot": "^0.3.7",
+    "storybook": "^1.0.0",
     "styled-components": "^3.4.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
