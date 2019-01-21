@@ -8,6 +8,8 @@ import { words } from './steps/words';
 import { coachSteps } from './steps/coachSteps'
 import LottieControl from './components/lottie'
 
+const BOTAVATAR = "http://wac.450f.edgecastcdn.net/80450F/kool1079.com/files/2014/08/coach-angry-630x419.jpg"
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -37,7 +39,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <ChatBot steps={coachSteps} floating={true} botAvatar={'https://et.tv/2CNhf3i'}
+          <ChatBot steps={coachSteps} floating={true} botAvatar={BOTAVATAR}
             avatarStyle={avatar}
             cache={false}
             opened={this.state.opened}

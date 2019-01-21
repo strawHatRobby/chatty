@@ -11,6 +11,8 @@
   }
   
  export const avatar  = {
-    borderRadius: '100%',
+    height: '40px',
+    width: '40px',
+    borderRadius: '40',
 
    }
